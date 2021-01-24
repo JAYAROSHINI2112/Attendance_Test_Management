@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Register | Students</title>
+
+    <link rel="stylesheet" href="css/studentstyle.css" />
+</head>
+
+<body>
+    <div class="signup">
+        <h2 class="signup__heading">Add Students</h2>
+        <p class="signup__already">
+            Team Kanaa - to reach the unreach.......<br>
+            <a href="home.html" class="signup__link signup__link--underline">Back</a>
+        </p>
+        <form action="insert.php" method="POST" class="signup__form" autocomplete="off">
+            <table>
+
+                <tr>
+                    <div class="form__group">
+                        <td><input type="text" class="form__input" name="name" placeholder="NAME" required></td>
+                </tr>
+                </div>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="text" class="form__input" name="kid" placeholder="KANAA TEAM ID" required></td>
+                </tr>
+                </div>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="email" class="form__input" name="email" placeholder="EMAIL" required></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="integer" class="form__input" placeholder="CONTACT NO" name="cno" required></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="text" class="form__input" placeholder="1Oth PERCENTAGE" name="tenp" required></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form__group">
+
+                        <td><input type="text" class="form__input" placeholder="11th PERCENTAGE" name="twlp"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="file" class="form__input" name="img"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="form__group">
+                        <td><input type="submit" class="form__submit" value="Submit"></td>
+                    </div>
+                </tr>
+    </div>
+    </table>
+    </form>
+</body>
+
+</html>
